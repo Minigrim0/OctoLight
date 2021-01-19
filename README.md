@@ -3,7 +3,7 @@ A simple project to add an RGB strip Led to an Ender5 printer, using an OrangePI
 
 # Installation
 
-**Make sure to use an armbian image as it is the only distro supported by adafruit's blinka
+**Make sure to use an armbian image as it is the only distro supported by adafruit's blinka**
 
 The next commands are following adafruit's [official documentation](https://learn.adafruit.com/circuitpython-on-orangepi-linux/orange-pi-pc-setup)
 
