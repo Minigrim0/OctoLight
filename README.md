@@ -35,5 +35,13 @@ sudo apt-get install -y python-smbus python-dev i2c-tools
 sudo adduser pi i2c
 ```
 
+### Update Environment
+Add the following lines at the end of `/boot/orangepiEnv.txt`
+```
+overlay_prefix=sun8i-h3
+overlays=uart3 i2c0 spi-spidev
+param_spidev_spi_bus=0
+```
+
 # MQTT
 ...
