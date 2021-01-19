@@ -26,8 +26,7 @@ In adafruit's tutorial they seem to do it globally, I'll just do it in my virtua
 python3 -m venv ve
 source ve/bin/activate
 pip install --upgrade setuptools
-pip freeze - local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1
-pip install -U
+pip freeze - local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
 ```
 
 ### Enable UART, I2C and SPI
